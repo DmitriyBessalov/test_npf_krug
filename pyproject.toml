@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "npf_krug"
+version = "1"
+description = ""
+authors = ["DmitriyBessalov <dmitriy@bessalov.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^1.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
